@@ -61,3 +61,33 @@ h1 span {
 .logos img {
   height: 2.6rem;
 }
+
+/* Community Section */
+.community-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card div {
+padding: 2.4rem;
+position: relative;
+}
+
+.card img::after {
+  content: '';
+  background-color: red;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20.1rem;
+}
+/* End Community Section */
