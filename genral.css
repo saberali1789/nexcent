@@ -16,58 +16,86 @@ Large: 1.8
 */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  :root {
-    --primary : #28CB8B;
-    --secondary : #263238;
-    --selver:#F5F7FA;
-  }
-  
-  html {
-   
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: "Inter", sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    
-  
-    overflow-x: hidden;
-  }
+:root {
+  --primary: #4caf4f;
+  --secondary: #263238;
+  --selver: #f5f7fa;
+  --d-gray: #4d4d4d;
+  --white: #fff;
+  --padding-top: 2.4rem;
+  --padding-bottom: 1.2rem;
+}
 
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--d-gray);
+
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+
+p {
+  font-size: 1.2rem;
+  padding-bottom: var(--padding-bottom);
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  color: var(--white);
+  font-size: 1.2rem;
+  background-color: var(--primary);
+  padding: 1rem 2.8rem;
+  border-radius: 3px;
+  border: none;
+}
+
+@media (min-width: 768px) {
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 750px;
   }
-
-  a {
-    text-decoration: none;
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
   }
-
-  @media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
   }
-  /* Medium */
-  @media (min-width: 992px) {
-    .container {
-      width: 970px;
-    }
-  }
-  /* Large */
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px;
-    }
-  }
+}
