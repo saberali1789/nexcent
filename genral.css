@@ -73,6 +73,7 @@ h4 {
 
 p {
   font-size: 1.2rem;
+  line-height: 1.5;
   padding-bottom: var(--padding-bottom);
 }
 
@@ -87,6 +88,12 @@ p {
   padding: 1rem 2.8rem;
   border-radius: 3px;
   border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #237D31;
+  box-shadow: 2px 2px 2px 0px rgba(13, 85, 10, 0.50);
 }
 
 @media (min-width: 768px) {
