@@ -73,7 +73,7 @@ h1 span {
 }
 
 .logos img {
-  height: 2.6rem;
+  /*  */
 }
 
 /* Community Section */
@@ -179,3 +179,19 @@ h1 span {
 
 
 /* End Design Section */
+
+/* Tesla Section */
+.tesla-section {
+  background-color: var(--selver);
+}
+.tesla-content {
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1.5fr 1.8fr;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  padding: 0 3.2rem;
+}
+
+/* End Tesla Section */

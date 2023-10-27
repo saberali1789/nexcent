@@ -72,6 +72,18 @@ h4 {
   padding-bottom: var(--padding-bottom);
 }
 
+h5 {
+  font-size: 1.4rem;
+  padding: 1.2rem 0;
+  color: var(--primary);
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #89939E;
+}
+
 p {
   font-size: 1.2rem;
   line-height: 1.5;
@@ -95,6 +107,22 @@ p {
 .btn:hover {
   background-color: #237d31;
   box-shadow: 2px 2px 2px 0px rgba(13, 85, 10, 0.5);
+}
+
+.btn-secondary {
+  font-weight: 600;
+  border: none;
+  border-bottom: 1px solid transparent;
+  color: var(--primary);
+  background-color: transparent;
+  cursor: pointer;
+  padding: .1rem .2rem;
+}
+
+.btn-secondary:hover{
+  border-color:  var(--primary);
+  background-color: var(--white);
+  
 }
 
 @media (min-width: 768px) {
