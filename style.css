@@ -72,9 +72,9 @@ h1 span {
   padding-bottom: var(--padding-top);
 }
 
-.logos img {
-  /*  */
-}
+/* .logos img {
+ 
+} */
 
 /* Community Section */
 .community-cards {
@@ -151,11 +151,11 @@ h1 span {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 40%;
-  
 }
 
 .number-card {
-  display: flex;align-items: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
   gap: 2.2rem;
 }
@@ -177,7 +177,6 @@ h1 span {
   padding: 0 3.2rem;
 }
 
-
 /* End Design Section */
 
 /* Tesla Section */
@@ -195,3 +194,78 @@ h1 span {
 }
 
 /* End Tesla Section */
+
+/* Market Section */
+.market-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.market-img img {
+  position: relative;
+}
+
+.market-text {
+  width: 23rem;
+  background-color: var(--selver);
+  border-radius: 5px;
+  box-shadow: 0px 5.56856px 11.13711px 0px rgba(171, 190, 209, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding:0 0 1.2rem;
+  position: absolute;
+  transform: translate(6%, 108%);
+
+}
+
+.market-text h5 {
+  color: #717171;
+  padding-bottom: 2rem;
+}
+/* End Market Section */
+
+
+
+.market-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.market-cards{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.market-card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  
+}
+.market-img img {
+  position: relative;
+}
+
+.market-text {
+ 
+  width: 15rem;
+  background-color: var(--selver);
+  border-radius: 5px;
+  box-shadow: 0px 5.56856px 11.13711px 0px rgba(171, 190, 209, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding:0 0 1.2rem;
+  position: absolute;
+  transform: translate(0%, 108%);
+z-index: 11;
+ background-color: #fff;
+}

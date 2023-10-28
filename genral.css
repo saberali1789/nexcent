@@ -76,6 +76,8 @@ h5 {
   font-size: 1.4rem;
   padding: 1.2rem 0;
   color: var(--primary);
+  line-height: 1.5;
+ 
 }
 
 h6 {
@@ -123,6 +125,10 @@ p {
   border-color:  var(--primary);
   background-color: var(--white);
   
+}
+
+.arrwo {
+  fill: var(--primary) !important;
 }
 
 @media (min-width: 768px) {
