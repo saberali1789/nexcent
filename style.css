@@ -16,6 +16,7 @@ header {
   transform: translateX(-50%);
 
   background-color: var(--white);
+  z-index: 100;
 }
 
 nav {
@@ -196,14 +197,9 @@ h1 span {
 /* End Tesla Section */
 
 /* Market Section */
-.market-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.market-img img {
-  position: relative;
+.market-section {
+  height: 80vh;
 }
 
 .market-text {
@@ -215,10 +211,9 @@ h1 span {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding:0 0 1.2rem;
+  padding: 0 0 1.2rem;
   position: absolute;
   transform: translate(6%, 108%);
-
 }
 
 .market-text h5 {
@@ -227,35 +222,31 @@ h1 span {
 }
 /* End Market Section */
 
-
-
 .market-box {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.market-cards{
+.market-cards {
   display: flex;
   gap: 2rem;
   align-items: center;
   justify-content: space-around;
 }
-.market-card{
+.market-card {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 300px;
-  
+  width: 30rem;
 }
-.market-img img {
-  position: relative;
-}
+/* .market-img img {
+
+} */
 
 .market-text {
- 
-  width: 15rem;
+  width: 23rem;
   background-color: var(--selver);
   border-radius: 5px;
   box-shadow: 0px 5.56856px 11.13711px 0px rgba(171, 190, 209, 0.4);
@@ -263,9 +254,36 @@ h1 span {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding:0 0 1.2rem;
+  padding: 0 0 1.2rem;
   position: absolute;
-  transform: translate(0%, 108%);
-z-index: 11;
- background-color: #fff;
+  transform: translate(0%, 77%);
+  z-index: 1;
+  background-color: #fff;
 }
+
+/* Section End */
+.end-section {
+  height: 40vh;
+  background-color: var(--selver);
+}
+
+/* End Section End */
+
+/* Footer */
+footer{
+  background-color: var(--secondary);
+  color: var(--white);
+  height: 40vh;
+  padding: var(--padding-top) 0;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer p {
+  color: var(--selver);
+}
+
+/* End Footer */

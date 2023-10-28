@@ -58,6 +58,15 @@ a {
 }
 
 h2 {
+  font-size: 4.4rem;
+    font-weight: 600;
+    margin: 2.2rem 2.2rem 4.2rem 0;
+    line-height: 1.2;
+    /* letter-spacing: 1px; */
+    color: #263238;
+}
+
+h2 {
   font-size: 3.2rem;
   font-weight: 600;
   line-height: 1.2;
