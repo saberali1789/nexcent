@@ -8,23 +8,20 @@
   --padding-bottom: 1.2rem;
 }
 
-header {
-  position: fixed;
-  height: 7rem;
 
-  left: 50%;
-  transform: translateX(-50%);
 
-  background-color: var(--white);
-  z-index: 100;
-}
 
 nav {
-  max-width: 140rem;
-  height: 7rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+padding: 1.6rem 2.4rem;
+background-color: var(--white);
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.151);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
 
 nav a {
@@ -300,7 +297,11 @@ footer p {
 
 .social svg {
   margin-right: 0.8rem;
+  transition: all 0.5s;
+
 }
+
+
 
 .other-footer {
   display: flex;
