@@ -20,6 +20,7 @@ header {
 }
 
 nav {
+  max-width: 140rem;
   height: 7rem;
   display: flex;
   justify-content: space-between;
@@ -270,11 +271,16 @@ h1 span {
 /* End Section End */
 
 /* Footer */
-footer{
+footer {
   background-color: var(--secondary);
   color: var(--white);
   height: 40vh;
   padding: var(--padding-top) 0;
+}
+
+footer p {
+  color: var(--selver) !important;
+  font-weight: 400;
 }
 
 .footer-content {
@@ -282,8 +288,34 @@ footer{
   align-items: center;
   justify-content: space-between;
 }
-footer p {
-  color: var(--selver);
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+/* .img-footer{} */
+
+.social svg {
+  margin-right: 0.8rem;
+}
+
+.other-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.other-footer h4 {
+  margin-bottom: .8rem;
+}
+.other-footer p {
+padding-bottom: .8rem;
+}
+.other-footer a {
+color: var(--selver);
 }
 
 /* End Footer */
