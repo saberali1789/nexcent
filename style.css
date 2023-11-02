@@ -318,5 +318,10 @@ padding-bottom: .8rem;
 .other-footer a {
 color: var(--selver);
 }
+.other-footer a:hover {
+color: var(--primary);
+}
+
+
 
 /* End Footer */

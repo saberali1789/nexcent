@@ -58,6 +58,10 @@ a {
   text-decoration: none;
 }
 
+a:hover, a:focus {
+  color: var(--primary);
+}
+
 h3 {
   font-size: 3.2rem;
   
