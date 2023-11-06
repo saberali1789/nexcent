@@ -8,16 +8,14 @@
   --padding-bottom: 1.2rem;
 }
 
-
-
-
 nav {
   position: fixed;
   top: 0;
   width: 100%;
-padding: 1.6rem 2.4rem;
-background-color: var(--white);
-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.151);
+  min-height: 7rem;
+  padding: 1.6rem 2.4rem;
+  background-color: var(--white);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.151);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +30,34 @@ nav a {
 
 nav a:hover {
   background: var(--selver);
+}
+
+.nav-show {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 7rem;
+  padding: 1.6rem 2.4rem;
+  background-color: var(--white);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.151);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.icon-mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  .icon-mobile {
+    display: block;
+  }
 }
 
 .hero-section {
@@ -298,10 +324,7 @@ footer p {
 .social svg {
   margin-right: 0.8rem;
   transition: all 0.5s;
-
 }
-
-
 
 .other-footer {
   display: flex;
@@ -310,18 +333,16 @@ footer p {
 }
 
 .other-footer h4 {
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 .other-footer p {
-padding-bottom: .8rem;
+  padding-bottom: 0.8rem;
 }
 .other-footer a {
-color: var(--selver);
+  color: var(--selver);
 }
 .other-footer a:hover {
-color: var(--primary);
+  color: var(--primary);
 }
-
-
 
 /* End Footer */
