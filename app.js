@@ -1,12 +1,10 @@
-const iconMobile =document.querySelector('.icon-mobile');
-const navLinks = document.getElementById('nav-links');
+// const iconMobile = document.querySelector(".icon-mobile");
+// const navLinks = document.getElementById("nav-links");
 
+// console.log('dddddddddddd');
+// iconMobile.addEventListener("click", () => {
+//   console.log();
 
-iconMobile.addEventListener('click', () => {
-    console.log();
-
-    navLinks.classList.remove('nav-links');
-    navLinks.classList.add('nav-show');})
-
-
-
+//   navLinks.classList.remove("nav-links");
+//   navLinks.classList.add("nav-show");
+// });
