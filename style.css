@@ -93,8 +93,13 @@ h1 span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding-top: var(--padding-top);
   padding-bottom: var(--padding-top);
+}
+
+.logos img {
+  display: block;
 }
 
 /* .logos img {
