@@ -66,11 +66,12 @@ nav a:hover {
 }
 
 .hero-content {
-  height: 80vh;
+  /* height: 80vh; */
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
   gap: 10rem;
+  padding: 12.8rem 0;
 }
 
 .hero-text h1 {
@@ -92,6 +93,7 @@ h1 span {
 .logos {
   display: flex;
   justify-content: space-between;
+  gap: 7rem;
   align-items: center;
   flex-wrap: wrap;
   padding-top: var(--padding-top);
@@ -107,6 +109,10 @@ h1 span {
 } */
 
 /* Community Section */
+.community-cards {
+  padding: var(--padding-bottom);
+}
+
 .community-cards {
   display: flex;
   align-items: center;
@@ -129,14 +135,14 @@ h1 span {
   position: relative;
 }
 
-.card h4::before {
+.img-container::before {
   content: "";
   background-color: #e8f5e9;
   width: 34px;
   height: 34px;
   position: absolute;
-  left: 188px;
-  bottom: -332px;
+  left: 35px;
+  bottom: 20px;
   z-index: -1;
   border-radius: 10px 0;
 }
@@ -144,17 +150,11 @@ h1 span {
 
 /* Seen Section */
 .seen-section {
-  height: 60vh;
   display: grid;
   grid-template-columns: 1.5fr 1.8fr;
   align-items: center;
   justify-content: center;
-  gap: 2.4rem;
-  padding: 0 3.2rem;
-}
-
-.seen-img {
-  width: 100%;
+  padding: var(--padding-top);
 }
 
 /* End Seen Section */
@@ -169,6 +169,7 @@ h1 span {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .number-text span {
@@ -180,6 +181,7 @@ h1 span {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 3.2rem;
   width: 40%;
 }
 
@@ -198,13 +200,12 @@ h1 span {
 
 /* Design Section */
 .design-section {
-  height: 60vh;
   display: grid;
   grid-template-columns: 1.5fr 1.8fr;
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
-  padding: 0 3.2rem;
+  padding: var(--padding-top)
 }
 
 /* End Design Section */
@@ -214,13 +215,18 @@ h1 span {
   background-color: var(--selver);
 }
 .tesla-content {
-  height: 50vh;
-  display: grid;
-  grid-template-columns: 1.5fr 1.8fr;
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.4rem;
-  padding: 0 3.2rem;
+  gap: 3.2rem;
+  padding-top: var(--padding-top);
+}
+.tesla-content .logos {
+  gap: 3.2rem;
+}
+
+.tesla-img img {
+  width: 27rem;
 }
 
 /* End Tesla Section */
@@ -228,22 +234,10 @@ h1 span {
 /* Market Section */
 
 .market-section {
-  height: 80vh;
+  padding-bottom:  3.2rem;
 }
 
-.market-text {
-  width: 23rem;
-  background-color: var(--selver);
-  border-radius: 5px;
-  box-shadow: 0px 5.56856px 11.13711px 0px rgba(171, 190, 209, 0.4);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  padding: 0 0 1.2rem;
-  position: absolute;
-  transform: translate(6%, 108%);
-}
+
 
 .market-text h5 {
   color: #717171;
@@ -253,26 +247,26 @@ h1 span {
 
 .market-box {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  ;
 }
-.market-cards {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  justify-content: space-around;
-}
+
 .market-card {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 30rem;
+  width: 35rem;
+  padding-bottom: 8rem;
 }
-/* .market-img img {
 
-} */
+.market-img img {
+  width: 100%;
+}
+
 
 .market-text {
   width: 23rem;
