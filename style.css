@@ -131,7 +131,8 @@ h1 span {
   flex-wrap: wrap;
  
   width: 25rem;
-  height: 23rem;
+  height: 25rem;
+  padding: 0 1.2rem;
   /* border: 1px solid var(--selver); */
   box-shadow: 0px 1.39214px 2.78428px 0px rgba(171, 190, 209, 0.20);
 }
