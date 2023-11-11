@@ -47,6 +47,27 @@
 
   }
 
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .about {
+    margin-bottom: 4.6rem;
+  }
+
+  .other-footer{
+    width: 70%;
+    gap: 2.4rem;
+    flex-wrap: wrap;
+  }
+
+  .stayup-div {
+    display: flex;
+    flex-direction: column;
+  
+
+  }
+
   
 }
   /* Medium */
