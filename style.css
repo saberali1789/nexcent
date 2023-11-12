@@ -68,10 +68,10 @@ nav a:hover {
 .hero-content {
   /* height: 80vh; */
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
   gap: 10rem;
-  padding: 12.8rem 0;
+  padding: 12.8rem 2.2rem ;
 }
 
 .hero-text h1 {
